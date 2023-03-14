@@ -1,2 +1,5 @@
-// Nest one Array within Another Array
-const myArray = [["Bulls", 23], ["White Sox", 45]];
+// Passing Values to Functions with Arguments
+function functionWithArgs(param1, param2) {
+    console.log(param1 + param2);
+  }
+  functionWithArgs(1,2)
