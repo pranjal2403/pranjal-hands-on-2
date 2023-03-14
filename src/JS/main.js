@@ -1,5 +1,11 @@
-// Passing Values to Functions with Arguments
-function functionWithArgs(param1, param2) {
-    console.log(param1 + param2);
+function trueOrFalse(wasThatTrue) {
+    // Only change code below this line
+   if (wasThatTrue) {
+      return "Yes, that was true";
+    }
+    return "No, that was false";
+  
+  
+    // Only change code above this line
+  
   }
-  functionWithArgs(1,2)
